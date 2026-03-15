@@ -56,7 +56,7 @@ The system can learn water consumption patterns and detect abnormal usage.
 
 # System Architecture
 
-
+```
 Water Flow Sensor
       │
       ▼
@@ -73,7 +73,7 @@ Firebase Database
       │
       ▼
 Frontend Dashboard
-
+```
 
 ---
 
@@ -108,7 +108,7 @@ Frontend Dashboard
 
 # Repository Structure
 
-
+```
 HydroX
 │
 ├── hardware
@@ -120,7 +120,7 @@ HydroX
 │
 ├── README.md
 └── .gitignore
-
+```
 
 ---
 
