@@ -58,21 +58,21 @@ The system can learn water consumption patterns and detect abnormal usage.
 
 
 Water Flow Sensor
-│
-▼
+        │
+        ▼
 ESP32 Microcontroller
-│
-▼
-Blynk Cloud / API
-│
-▼
-Backend Server (Node.js)
-│
-▼
+        │
+        ▼
+Blynk Cloud
+        │
+        ▼
+Backend Server
+        │
+        ▼
 Firebase Database
-│
-▼
-Web Dashboard (Frontend)
+        │
+        ▼
+Frontend Dashboard
 
 
 ---
@@ -112,15 +112,11 @@ Web Dashboard (Frontend)
 HydroX
 │
 ├── hardware
-│ └── smart_water_usage_detector.ino
+│   └── smart_water_usage_detector.ino
 │
-├── frontend
-│ └── HydroX dashboard
-│
-├── backend
-│ ├── server.js
-│ ├── firebase.js
-│ └── routes
+├── HydroX
+│   └── frontend
+|   └── backend
 │
 ├── README.md
 └── .gitignore
